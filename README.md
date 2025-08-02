@@ -29,7 +29,9 @@ task-manager/
 
 ## 🖼️ Wireframes
 
-*Add your wireframe screenshots here:*
-![Wireframe Index](assets/image-1.png)
-![Wireframe About](assets/image.png)
+## Home page
+![Wireframe Index](assets/image-2.png)
+## About page
+![Wireframe About](assets/image-1.png)
+
 
