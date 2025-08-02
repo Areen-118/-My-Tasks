@@ -18,6 +18,7 @@ Hi! I'm learning how to build websites. This project helps me practice DOM manip
   - `git add`, `git commit`, `git push`
 
 ## 📁 Project Structure
+
 task-manager/
 ├── index.html
 ├── about.html
@@ -30,8 +31,8 @@ task-manager/
 ## 🖼️ Wireframes
 
 ## Home page
-![Wireframe Index](assets/image-2.png)
+![Wireframe Index](image.png)
 ## About page
-![Wireframe About](assets/image-1.png)
+![Wireframe About](image-3.png)
 
 
