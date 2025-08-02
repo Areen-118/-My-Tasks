@@ -1,0 +1,186 @@
+/* Reset بعض العناصر */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  width: 120px;
+  margin: 10px auto;
+  display: block;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #4facfe;
+}
+
+/* Task Input Section */
+#task-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#task-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#task-input input:focus {
+  border-color: #4facfe;
+}
+
+#add-task-btn {
+  background-color: #4facfe;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#add-task-btn:hover {
+  background-color: #00c6fb;
+}
+
+/* Task List Table */
+#tasks {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#tasks th, #tasks td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+#tasks th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+#tasks tr:hover {
+  background-color: #f9f9f9;
+}
+/* قسم المعلومات الشخصية */
+section img {
+  display: block;
+  margin: 15px auto;
+  border-radius: 50%;
+  border: 3px solid #4facfe;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+section p {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+form input, 
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #4facfe;
+}
+
+form button {
+  background-color: #4facfe;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #00c6fb;
+}
+
+/* عنوان القسم */
+section h2 {
+  color: #4facfe;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #4facfe;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
